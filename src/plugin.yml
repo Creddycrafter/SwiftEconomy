@@ -3,3 +3,5 @@ author: tatemylove
 version: 1.0
 main: com.tatemylove.SwiftEconomy.Main
 commands:
+  swift:
+  pay:

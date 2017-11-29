@@ -10,3 +10,9 @@ MySQL:
   Ip: 0.0.0.0
   Database: Database
 ############################
+
+############################
+#General Tweaks
+
+#Change the symbol of the currency
+currency: "$"
