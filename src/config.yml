@@ -1,0 +1,12 @@
+############################
+#Swift Economy by tatemylov#
+############################
+
+############################
+#MySQL Configuration (Required)
+MySQL:
+  Username: Username
+  Password: Password
+  Ip: 0.0.0.0
+  Database: Database
+############################
