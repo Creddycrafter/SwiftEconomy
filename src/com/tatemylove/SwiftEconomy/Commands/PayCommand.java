@@ -24,18 +24,22 @@ public class PayCommand implements CommandExecutor {
             return true;
         }
 
-        if(args.length == 2){
-            String target = args[1];
-            int amount = Integer.parseInt(args[2]);
-            Player targeter = Bukkit.getPlayer(target);
+        if(args.length == 2) {
+            if (!Main.lockedAccount.contains(p)) {
+                String target = args[1];
+                int amount = Integer.parseInt(args[2]);
+                Player targeter = Bukkit.getPlayer(target);
 
-            int money = SwiftEconomyAPI.playerMoney.get(p.getName());
+                int money = SwiftEconomyAPI.playerMoney.get(p.getName());
 
-            if(money >= amount){
-                p.sendMessage(Main.prefix + "You payed " + targeter.getName() + " " + ThisPlugin.getPlugin().getConfig().getString("currency")+ amount);
-                SwiftEconomyAPI.removeMoney(p, amount);
-                SwiftEconomyAPI.giveMoney(targeter, amount);
-                targeter.sendMessage(Main.prefix + p.getName() + " has payed you "  + ThisPlugin.getPlugin().getConfig().getString("currency")+ amount);
+                if (money >= amount) {
+                    p.sendMessage(Main.prefix + "You payed " + targeter.getName() + " " + ThisPlugin.getPlugin().getConfig().getString("currency") + amount);
+                    SwiftEconomyAPI.removeMoney(p, amount);
+                    SwiftEconomyAPI.giveMoney(targeter, amount);
+                    targeter.sendMessage(Main.prefix + p.getName() + " has payed you " + ThisPlugin.getPlugin().getConfig().getString("currency") + amount);
+                }
+            }else{
+                p.sendMessage(Main.prefix + "§e§lYour Account has been locked by an Administrator");
             }
         }
 

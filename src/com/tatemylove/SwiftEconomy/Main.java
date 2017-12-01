@@ -10,12 +10,16 @@ import com.tatemylove.SwiftEconomy.MySQL.MySQL;
 import com.tatemylove.SwiftEconomy.Tasks.MoneyTask;
 import com.tatemylove.SwiftEconomy.ThisPlugin.ThisPlugin;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.ArrayList;
 
 
 public class Main extends JavaPlugin{
 
     public static String prefix = "§8§l[SwiftEco] ";
+    public static ArrayList<Player> lockedAccount = new ArrayList<>();
 
     private MySQL mySQL;
 
@@ -47,5 +51,6 @@ public class Main extends JavaPlugin{
         mySQL = new MySQL(ip, userName, password, db);
 
         SignData.setup(this);
+
     }
 }
