@@ -15,16 +15,16 @@ public class MainCommand implements CommandExecutor {
 
         Player p = (Player) sender;
         if(args.length == 0){
-            p.sendMessage("-------=Swift Economy=-------");
-            p.sendMessage("Author: tatemylove");
-            p.sendMessage("Version: 1.0");
+            p.sendMessage("§8§l-------=§7§lSwift Economy§8§l=-------");
+            p.sendMessage("§b§lAuthor: §e§ltatemylove");
+            p.sendMessage("§d§lVersion: §2§lv.1.0");
             return true;
         }
         if(args[0].equalsIgnoreCase("reset")){
             if(p.hasPermission("swifteco.reset")){
                 Player target = Bukkit.getPlayer(args[1]);
 
-                p.sendMessage(Main.prefix + "You reset " + target.getName() + " account balance");
+                p.sendMessage(Main.prefix + "§b§lYou reset " + target.getName() + "'s §e§laccount balance");
                 SwiftEconomyAPI.resetMoney(target);
             }
         }
@@ -33,7 +33,7 @@ public class MainCommand implements CommandExecutor {
                 Player target = Bukkit.getPlayer(args[1]);
                 int amount = Integer.parseInt(args[2]);
 
-                p.sendMessage(Main.prefix + "You removed " + ThisPlugin.getPlugin().getConfig().getString("currency") +amount + "from " + target.getName());
+                p.sendMessage(Main.prefix + "§b§lYou removed " + ThisPlugin.getPlugin().getConfig().getString("currency") + "§3§l" +amount + "from " + target.getName());
                 SwiftEconomyAPI.removeMoney(target, amount);
             }
         }
@@ -42,7 +42,7 @@ public class MainCommand implements CommandExecutor {
                 Player target = Bukkit.getPlayer(args[1]);
                 int amount = Integer.parseInt(args[2]);
 
-                p.sendMessage(Main.prefix + "You gave " + target.getName() + " " + ThisPlugin.getPlugin().getConfig().getString("currency") + amount);
+                p.sendMessage(Main.prefix + "§b§lYou gave " + target.getName() + " §e§l" + ThisPlugin.getPlugin().getConfig().getString("currency") + amount);
 
                 SwiftEconomyAPI.giveMoney(target, amount);
             }

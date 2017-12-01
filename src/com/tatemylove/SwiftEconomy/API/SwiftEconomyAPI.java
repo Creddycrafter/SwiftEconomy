@@ -1,14 +1,16 @@
 package com.tatemylove.SwiftEconomy.API;
 
-import com.tatemylove.SwiftEconomy.Main;
 import com.tatemylove.SwiftEconomy.MySQL.MySQL;
+import com.tatemylove.SwiftEconomy.ThisPlugin.ThisPlugin;
 import org.bukkit.entity.Player;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.HashMap;
 
 public class SwiftEconomyAPI {
 
+    public static HashMap<String, Integer> playerMoney = new HashMap<>();
     public static void giveMoney(Player p, int amount){
         try{
             if(hasMoney(p)){
@@ -24,7 +26,7 @@ public class SwiftEconomyAPI {
     public static void resetMoney(Player p){
         try{
             if(hasMoney(p)){
-                PreparedStatement ps = MySQL.connection.prepareStatement("UPDATE SWIFTeco SET money= 0'" + "' WHERE uuid='" + p.getUniqueId().toString() + "'");
+                PreparedStatement ps = MySQL.connection.prepareStatement("UPDATE SWIFTeco SET money='"+0 + "' WHERE uuid='" + p.getUniqueId().toString() + "'");
                 ps.executeUpdate();
                 ps.close();
             }
@@ -50,7 +52,7 @@ public class SwiftEconomyAPI {
 
             while(rs.next()){
                 if(rs.getString("uuid").equals(p.getUniqueId().toString())){
-                    if(rs.getObject("money") != null) Main.money.put(p.getName(), rs.getInt("money"));
+                    if(rs.getObject("money") != null) playerMoney.put(p.getName(), rs.getInt("money"));
                 }
             }
             rs.close();
@@ -77,7 +79,7 @@ public class SwiftEconomyAPI {
     public static void firstMoney(Player p){
         try{
             if(!hasMoney(p)){
-                int number = 0;
+                int number = ThisPlugin.getPlugin().getConfig().getInt("starting-amount");
                 PreparedStatement ps = MySQL.connection.prepareStatement("INSERT into SWIFTeco(uuid, money)\nvalues('" + p.getUniqueId().toString() + "', '" + number + "');");
                 ps.executeUpdate();
                 ps.close();
