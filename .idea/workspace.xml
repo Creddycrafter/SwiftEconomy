@@ -7,26 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256eed1a-22a3-4c6a-9f6f-befb26bb36e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Commands/MainCommand.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Commands/MainCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Commands/PayCommand.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Commands/PayCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Listeners/JoinListener.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Listeners/JoinListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Listeners/SignListener.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Listeners/SignListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Main.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/MySQL/MySQL.class" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/com/tatemylove/SwiftEconomy/MySQL/MySQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SwiftEconomy.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SwiftEconomy.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SwiftEconomy.iml" afterPath="$PROJECT_DIR$/SwiftEconomy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/JoinListener.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/JoinListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/MySQL/MySQL.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/MySQL/MySQL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Files/SignData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -63,7 +47,7 @@
       <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/MySQL/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="450">
               <caret line="20" column="121" lean-forward="false" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,7 +59,7 @@
       <file leaf-file-name="SwiftEconomyAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
+            <state relative-caret-position="2840">
               <caret line="195" column="44" lean-forward="false" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -94,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCommand.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -121,8 +105,8 @@
       <file leaf-file-name="PayCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="900">
+              <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomy.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/UtilsAPI.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Tasks/MoneyTask.java" />
-        <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/MySQL/MySQL.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
@@ -185,8 +168,9 @@
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/JoinListener.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java" />
-        <option value="$PROJECT_DIR$/src/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java" />
         <option value="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java" />
+        <option value="$PROJECT_DIR$/src/plugin.yml" />
       </list>
     </option>
   </component>
@@ -211,6 +195,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,9 +320,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -975,16 +959,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Files/SignData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -999,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/MySQL/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="450">
           <caret line="20" column="121" lean-forward="false" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1011,6 +992,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1027,33 +1016,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="900">
+          <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
+        <state relative-caret-position="2840">
           <caret line="195" column="44" lean-forward="false" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1068,6 +1041,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

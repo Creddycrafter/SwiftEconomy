@@ -17,7 +17,7 @@ public class MainCommand implements CommandExecutor {
         if(args.length == 0){
             p.sendMessage("§8§l-------=§7§lSwift Economy§8§l=-------");
             p.sendMessage("§b§lAuthor: §e§ltatemylove");
-            p.sendMessage("§d§lVersion: §2§lv.1.0.2");
+            p.sendMessage("§d§lVersion: §2§lv.1.0.3");
             return true;
         }
         if(args[0].equalsIgnoreCase("reset")){
