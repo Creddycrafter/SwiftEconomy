@@ -30,7 +30,7 @@ public class PayCommand implements CommandExecutor {
                 int amount = Integer.parseInt(args[2]);
                 Player targeter = Bukkit.getPlayer(target);
 
-                int money = SwiftEconomyAPI.playerMoney.get(p.getName());
+                double money = SwiftEconomyAPI.playerMoney.get(p.getName());
 
                 if (money >= amount) {
                     p.sendMessage(Main.prefix + "You payed " + targeter.getName() + " " + ThisPlugin.getPlugin().getConfig().getString("currency") + amount);

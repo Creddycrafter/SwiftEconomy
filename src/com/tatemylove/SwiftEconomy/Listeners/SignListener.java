@@ -78,7 +78,7 @@ public class SignListener implements Listener {
         Player p = e.getPlayer();
         if (e.getAction() != Action.RIGHT_CLICK_BLOCK) return;
         if (e.getClickedBlock().getState() instanceof Sign) {
-            if (!Main.lockedAccount.contains(p)) {
+
                 Sign sign = (Sign) e.getClickedBlock().getState();
                 int x = sign.getX();
                 int y = sign.getY();
@@ -86,31 +86,32 @@ public class SignListener implements Listener {
 
                 int total = x + y + z;
                 if (sign.getLine(0).equals("§2§l[Purchase]")) {
-                    if (SignData.getData().contains("Buy." + total)) {
-                        int money = SwiftEconomyAPI.playerMoney.get(p.getName());
-                        int chargeAmount = SignData.getData().getInt("Buy." + total + ".ChargeAmount");
-                        String item = SignData.getData().getString("Buy." + total + ".Item");
-                        int sellAmount = SignData.getData().getInt("Buy." + total + ".SellAmount");
+                    if (!Main.lockedAccount.contains(p)) {
+                        if (SignData.getData().contains("Buy." + total)) {
+                            double money = SwiftEconomyAPI.playerMoney.get(p.getName());
+                            int chargeAmount = SignData.getData().getInt("Buy." + total + ".ChargeAmount");
+                            String item = SignData.getData().getString("Buy." + total + ".Item");
+                            int sellAmount = SignData.getData().getInt("Buy." + total + ".SellAmount");
 
-                        if (!(p.getInventory().firstEmpty() == -1)) {
-                            if (money >= chargeAmount) {
-                                p.getInventory().addItem(UtilsAPI.itemString(item.toUpperCase(), sellAmount));
+                            if (!(p.getInventory().firstEmpty() == -1)) {
+                                if (money >= chargeAmount) {
+                                    p.getInventory().addItem(UtilsAPI.itemString(item.toUpperCase(), sellAmount));
 
-                                SwiftEconomyAPI.removeMoney(p, chargeAmount);
+                                    SwiftEconomyAPI.removeMoney(p, chargeAmount);
 
-                                p.sendMessage(Main.prefix + "§aPurchase successful");
+                                    p.sendMessage(Main.prefix + "§aPurchase successful");
+                                } else {
+                                    p.sendMessage(Main.prefix + "§cPurchase failed, insufficient funds");
+                                }
                             } else {
-                                p.sendMessage(Main.prefix + "§cPurchase failed, insufficient funds");
+                                p.sendMessage(Main.prefix + "§cPurchase failed. Inventory is full!");
                             }
-                        } else {
-                            p.sendMessage(Main.prefix + "§cPurchase failed. Inventory is full!");
-                        }
 
+                        }
+                    }else{
+                        p.sendMessage(Main.prefix + "§c§lYour Account has been locked by an Administrator");
                     }
                 }
-            }else{
-                p.sendMessage(Main.prefix + "§c§lYour Account has been locked by an Administrator");
-            }
         }
     }
 
@@ -119,7 +120,6 @@ public class SignListener implements Listener {
         Player p = e.getPlayer();
         if (e.getAction() != Action.RIGHT_CLICK_BLOCK) return;
         if (e.getClickedBlock().getState() instanceof Sign) {
-            if (!Main.lockedAccount.contains(p)) {
                 Sign sign = (Sign) e.getClickedBlock().getState();
                 int x = sign.getX();
                 int y = sign.getY();
@@ -128,6 +128,7 @@ public class SignListener implements Listener {
                 int total = x + y + z;
 
                 if (sign.getLine(0).equals("§c§l[Sell]")) {
+                    if (!Main.lockedAccount.contains(p)) {
                     if (SignData.getData().contains("Sell." + total)) {
                         int chargeAmount = SignData.getData().getInt("Sell." + total + ".ChargeAmount");
                         String item = SignData.getData().getString("Sell." + total + ".Item");
@@ -141,9 +142,9 @@ public class SignListener implements Listener {
                             p.sendMessage(Main.prefix + "§cYou don't have " + sellAmount + " " + item);
                         }
                     }
-                }
-            }else{
-                p.sendMessage(Main.prefix + "§c§lYour Account has been locked by an Administrator");
+                }else{
+                        p.sendMessage(Main.prefix + "§c§lYour Account has been locked by an Administrator");
+                    }
             }
         }
     }

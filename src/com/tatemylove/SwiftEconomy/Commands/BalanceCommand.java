@@ -3,6 +3,7 @@ package com.tatemylove.SwiftEconomy.Commands;
 import com.tatemylove.SwiftEconomy.API.SwiftEconomyAPI;
 import com.tatemylove.SwiftEconomy.Main;
 import com.tatemylove.SwiftEconomy.ThisPlugin.ThisPlugin;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,7 +19,8 @@ public class BalanceCommand implements CommandExecutor{
         if(args.length == 0){
             if(p.hasPermission("swifteco.balance")){
                 SwiftEconomyAPI.getMoney(p);
-                int money = SwiftEconomyAPI.playerMoney.get(p.getName());
+                //double money = SwiftEconomyAPI.playerMoney.get(p.getName());
+                double money= SwiftEconomyAPI.playerMoney.get(p.getName());
                 p.sendMessage(Main.prefix + "§a§lYou have §e§l" + ThisPlugin.getPlugin().getConfig().getString("currency") + money);
             }
         }

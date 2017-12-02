@@ -5,6 +5,7 @@
 ############################
 #MySQL Configuration (Required)
 MySQL:
+  Enabled: false
   Username: Username
   Password: Password
   Ip: 0.0.0.0

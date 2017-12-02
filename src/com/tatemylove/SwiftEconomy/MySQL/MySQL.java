@@ -18,12 +18,12 @@ public class MySQL {
         }
     }
     private void createEconomy() throws Exception{
-        PreparedStatement ps = connection.prepareStatement("CREATE TABLE IF NOT EXISTS SWIFTeco(uuid varchar(36), money int)");
+        PreparedStatement ps = connection.prepareStatement("CREATE TABLE IF NOT EXISTS SWIFTeco(uuid varchar(36) NOT NULL, money double)");
         ps.executeUpdate();
         ps.close();
     }
     private void createLockedAccounts() throws Exception{
-        PreparedStatement ps = connection.prepareStatement("CREATE TABLE IF NOT EXISTS SWIFTlocked(uuid varchar(36), status varchar(36))");
+        PreparedStatement ps = connection.prepareStatement("CREATE TABLE IF NOT EXISTS SWIFTlocked(uuid varchar(36) NOT NULL, status varchar(36))");
         ps.executeUpdate();
         ps.close();
     }
