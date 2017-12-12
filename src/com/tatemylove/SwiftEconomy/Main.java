@@ -1,5 +1,6 @@
 package com.tatemylove.SwiftEconomy;
 
+import com.tatemylove.SwiftEconomy.API.SwiftEconomyAPI;
 import com.tatemylove.SwiftEconomy.Commands.BalanceCommand;
 import com.tatemylove.SwiftEconomy.Commands.MainCommand;
 import com.tatemylove.SwiftEconomy.Commands.PayCommand;
@@ -40,7 +41,7 @@ public class Main extends JavaPlugin{
         BalanceCommand balance = new BalanceCommand();
         getCommand("balance").setExecutor(balance);
 
-        MoneyTask moneyTask = new MoneyTask();
+        MoneyTask moneyTask = new MoneyTask(new SwiftEconomyAPI());
         moneyTask.runTaskTimerAsynchronously(this, 0, 20);
 
 

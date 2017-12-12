@@ -12,17 +12,18 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-public class JoinListener implements Listener {
+public class JoinListener extends SwiftEconomyAPI implements Listener {
+
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
 
         if (ThisPlugin.getPlugin().getConfig().getBoolean("MySQL.Enabled")) {
-            SwiftEconomyAPI.firstMoney(p);
-            SwiftEconomyAPI.getMoney(p);
-            SwiftEconomyAPI.addUserToDB(p);
+            firstMoney(p);
+            addUserToDB(p);
+            giveMoney(p, ThisPlugin.getPlugin().getConfig().getDouble("starting-amount"));
 
-            if (SwiftEconomyAPI.isLocked(p)) {
+            if (isLocked(p)) {
                 Main.lockedAccount.add(p);
             }
         }else {

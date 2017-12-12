@@ -9,7 +9,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class PayCommand implements CommandExecutor {
+public class PayCommand extends SwiftEconomyAPI implements CommandExecutor {
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
         Player p = (Player) sender;
@@ -38,8 +39,8 @@ public class PayCommand implements CommandExecutor {
 
                         targeter.sendMessage(Main.prefix + "§b§l" + p.getName() + " §e§lpaid you §a§l" + ThisPlugin.getPlugin().getConfig().getString("currency") + amount);
 
-                        SwiftEconomyAPI.giveMoney(targeter, amount);
-                        SwiftEconomyAPI.removeMoney(p, amount);
+                        giveMoney(targeter, amount);
+                        removeMoney(p, amount);
                     } else {
                         p.sendMessage(Main.prefix + "§c§lInsufficient funds");
                     }

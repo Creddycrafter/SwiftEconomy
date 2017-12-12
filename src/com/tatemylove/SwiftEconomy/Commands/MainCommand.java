@@ -9,7 +9,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class MainCommand implements CommandExecutor {
+public class MainCommand extends SwiftEconomyAPI implements CommandExecutor {
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
 
@@ -27,7 +28,7 @@ public class MainCommand implements CommandExecutor {
                 p.sendMessage(Main.prefix + "§b§lYou reset " + target.getName() + "'s §e§laccount balance");
 
                 target.sendMessage(Main.prefix + "§b§l" + p.getName() + " §c§lhas reset your account balance");
-                SwiftEconomyAPI.resetMoney(target);
+                resetMoney(target);
             }
         }
         if(args[0].equalsIgnoreCase("remove")){
@@ -39,7 +40,7 @@ public class MainCommand implements CommandExecutor {
 
                 target.sendMessage(Main.prefix + "§b§l" + p.getName() + " §e§lremoved §a§l" + ThisPlugin.getPlugin().getConfig().getString("currency")+amount + " from your balance");
 
-                SwiftEconomyAPI.removeMoney(target, amount);
+                removeMoney(target, amount);
             }
         }
         if(args[0].equalsIgnoreCase("add")){
@@ -51,7 +52,7 @@ public class MainCommand implements CommandExecutor {
 
                 target.sendMessage(Main.prefix + "§b§l" + p.getName() + " §e§lgave you §a§l" + ThisPlugin.getPlugin().getConfig().getString("currency")+amount);
 
-                SwiftEconomyAPI.giveMoney(target, amount);
+                giveMoney(target, amount);
             }
         }
         if(args[0].equalsIgnoreCase("lock")){
@@ -61,7 +62,7 @@ public class MainCommand implements CommandExecutor {
 
                     p.sendMessage(Main.prefix + "§b§lYou locked " + target.getName() + "'s §e§laccount");
 
-                    SwiftEconomyAPI.lockAccount(target, "true");
+                    lockAccount(target, "true");
 
                     Main.lockedAccount.add(p);
                 }else{
@@ -76,7 +77,7 @@ public class MainCommand implements CommandExecutor {
 
                     p.sendMessage(Main.prefix + "§b§lYou unlocked " + target.getName() + "'s §e§laccount");
 
-                    SwiftEconomyAPI.lockAccount(p, "false");
+                   lockAccount(p, "false");
                     Main.lockedAccount.remove(p);
                 }else{
                     p.sendMessage(Main.prefix + "§c§lPlayer's account is not locked");

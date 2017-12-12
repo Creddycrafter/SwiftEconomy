@@ -15,8 +15,13 @@ import java.util.HashMap;
 public class SwiftEconomyAPI {
 
     public static HashMap<String, Double> playerMoney = new HashMap<>();
+    private static SwiftEconomyAPI swiftEconomyAPI = null;
 
-    public static void giveMoney(Player p, double amount) {
+    public SwiftEconomyAPI(){
+        swiftEconomyAPI = SwiftEconomyAPI.this;
+    }
+
+    public void giveMoney(Player p, double amount){
         try {
             if(ThisPlugin.getPlugin().getConfig().getBoolean("MySQL.Enabled")) {
                 if (hasMoney(p)) {
@@ -33,10 +38,9 @@ public class SwiftEconomyAPI {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
-    public static void resetMoney(Player p) {
+    public void resetMoney(Player p) {
         try {
             if(ThisPlugin.getPlugin().getConfig().getBoolean("MySQL.Enabled")) {
                 if (hasMoney(p)) {
@@ -54,7 +58,7 @@ public class SwiftEconomyAPI {
         }
     }
 
-    public static void removeMoney(Player p, double amount) {
+    public  void removeMoney(Player p, double amount) {
         try {
             if(ThisPlugin.getPlugin().getConfig().getBoolean("MySQL.Enabled")) {
                 if (hasMoney(p)) {
@@ -73,7 +77,7 @@ public class SwiftEconomyAPI {
         }
     }
 
-    public static void getMoney(Player p) {
+    public  void getMoney(Player p) {
         try {
             if (ThisPlugin.getPlugin().getConfig().getBoolean("MySQL.Enabled")) {
                 PreparedStatement ps = MySQL.connection.prepareStatement("SELECT * FROM SWIFTeco");
@@ -96,7 +100,7 @@ public class SwiftEconomyAPI {
         }
 
 
-    public static boolean hasMoney(Player p) {
+    public  boolean hasMoney(Player p) {
         try {
             PreparedStatement ps = MySQL.connection.prepareStatement("SELECT uuid FROM SWIFTeco");
             ResultSet rs = ps.executeQuery();
@@ -112,7 +116,7 @@ public class SwiftEconomyAPI {
         return false;
     }
 
-    public static void firstMoney(Player p) {
+    public  void firstMoney(Player p) {
         try {
             if (!hasMoney(p)) {
                 double number = ThisPlugin.getPlugin().getConfig().getDouble("starting-amount");
@@ -126,7 +130,7 @@ public class SwiftEconomyAPI {
     }
 
 
-    private static boolean isInDataBase(Player p) {
+    private  boolean isInDataBase(Player p) {
         try {
             PreparedStatement ps = MySQL.connection.prepareStatement("SELECT uuid FROM SWIFTlocked");
             ResultSet rs = ps.executeQuery();
@@ -143,7 +147,7 @@ public class SwiftEconomyAPI {
         return false;
     }
 
-    public static void addUserToDB(Player p) {
+    public  void addUserToDB(Player p) {
         try {
             String value = "false";
             if(!isInDataBase(p)){
@@ -155,7 +159,7 @@ public class SwiftEconomyAPI {
             e.printStackTrace();
         }
     }
-    public static boolean isLocked(Player p) {
+    public  boolean isLocked(Player p) {
         try {
 
             if (isInDataBase(p)) {
@@ -177,7 +181,7 @@ public class SwiftEconomyAPI {
                 return false;
 
     }
-    public static void lockAccount(Player p, String value){
+    public  void lockAccount(Player p, String value){
         try{
             if(ThisPlugin.getPlugin().getConfig().getBoolean("MySQL.Enabled")) {
                 if (isInDataBase(p)) {

@@ -16,7 +16,8 @@ import org.bukkit.event.block.SignChangeEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
-public class SignListener implements Listener {
+public class SignListener extends SwiftEconomyAPI implements Listener {
+
 
     @EventHandler
     public void signCreate(SignChangeEvent e) {
@@ -97,7 +98,7 @@ public class SignListener implements Listener {
                                 if (money >= chargeAmount) {
                                     p.getInventory().addItem(UtilsAPI.itemString(item.toUpperCase(), sellAmount));
 
-                                    SwiftEconomyAPI.removeMoney(p, chargeAmount);
+                                   removeMoney(p, chargeAmount);
 
                                     p.sendMessage(Main.prefix + "§aPurchase successful");
                                 } else {
@@ -137,7 +138,7 @@ public class SignListener implements Listener {
                         if (p.getInventory().contains(Material.getMaterial(item.toUpperCase()), sellAmount)) {
                             p.getInventory().removeItem(new ItemStack(Material.getMaterial(item.toUpperCase()), sellAmount));
                             p.sendMessage(Main.prefix + "§a§lYou received §e§l" + ThisPlugin.getPlugin().getConfig().getString("currency") + chargeAmount);
-                            SwiftEconomyAPI.giveMoney(p, chargeAmount);
+                            giveMoney(p, chargeAmount);
                         } else {
                             p.sendMessage(Main.prefix + "§cYou don't have " + sellAmount + " " + item);
                         }
