@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256eed1a-22a3-4c6a-9f6f-befb26bb36e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SwiftEconomy.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SwiftEconomy.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/JoinListener.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/JoinListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Tasks/MoneyTask.java" afterPath="$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Tasks/MoneyTask.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwiftEconomy/plugin.yml" afterPath="$PROJECT_DIR$/out/production/SwiftEconomy/plugin.yml" />
       <change beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="125">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,31 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwiftEconomyAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3893">
-              <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <marker date="1513050872379" expanded="true" signature="952:1049" ph="UPDATE SWIFTeco... " />
-                <marker date="1513050872379" expanded="true" signature="1786:1871" ph="UPDATE SWIFTeco... " />
-                <marker date="1513050872379" expanded="true" signature="2508:2605" ph="UPDATE SWIFTeco... " />
-                <marker date="1513050872379" expanded="true" signature="3303:3325" ph="SELECT * FRO... SWIFTeco" />
-                <marker date="1513050872379" expanded="true" signature="4117:4142" ph="SELECT uuid SWIFTeco" />
-                <marker date="1513050872379" expanded="true" signature="4763:4860" ph="INSERT into SWIFTeco... " />
-                <marker date="1513050872379" expanded="true" signature="5156:5184" ph="SELECT uuid SWIFTlocked" />
-                <marker date="1513050872379" expanded="true" signature="5758:5858" ph="INSERT into SWIFTlocked... " />
-                <marker date="1513050872379" expanded="true" signature="6184:6209" ph="SELECT * FRO... SWIFTlocked" />
-                <marker date="1513050872379" expanded="true" signature="6982:7075" ph="UPDATE SWIFTlocked... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -78,8 +46,18 @@
       <file leaf-file-name="SignListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
+            <state relative-caret-position="3150">
               <caret line="140" column="28" lean-forward="false" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilsAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/UtilsAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -88,7 +66,7 @@
       <file leaf-file-name="MainCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
+            <state relative-caret-position="1800">
               <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,7 +78,7 @@
       <file leaf-file-name="BalanceCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="350">
               <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,7 +90,7 @@
       <file leaf-file-name="PayCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
+            <state relative-caret-position="875">
               <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,7 +112,7 @@
       <file leaf-file-name="MoneyTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Tasks/MoneyTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="350">
               <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="e#360#361#0" expanded="true" />
@@ -200,10 +178,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="3854" />
+    <option name="width" value="3844" />
     <option name="height" value="2122" />
   </component>
   <component name="ProjectView">
@@ -221,8 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,7 +237,28 @@
               <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
+              <item name="Files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwiftEconomy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
               <item name="Listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwiftEconomy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
+              <item name="MySQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwiftEconomy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SwiftEconomy" type="462c0819:PsiDirectoryNode" />
+              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwiftEconomy" type="b2602c69:ProjectViewProjectNode" />
@@ -273,8 +271,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,14 +509,19 @@
       <option name="presentableId" value="Default" />
       <updated>1511987032443</updated>
       <workItem from="1513049930697" duration="2488000" />
+      <workItem from="1513380886831" duration="634000" />
+      <workItem from="1513389090000" duration="36000" />
+      <workItem from="1514093355105" duration="9000" />
+      <workItem from="1514094817942" duration="147000" />
+      <workItem from="1515907280829" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2488000" />
+    <option name="totallyTimeSpent" value="3919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3854" height="2122" extended-state="0" />
+    <frame x="-11" y="0" width="3844" height="2122" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -534,8 +537,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -630,21 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <marker date="1513050872379" expanded="true" signature="952:1049" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="1786:1871" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="2508:2605" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="3303:3325" ph="SELECT * FRO... SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4117:4142" ph="SELECT uuid SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4763:4860" ph="INSERT into SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="5156:5184" ph="SELECT uuid SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="5758:5858" ph="INSERT into SWIFTlocked... " />
-            <marker date="1513050872379" expanded="true" signature="6184:6209" ph="SELECT * FRO... SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="6982:7075" ph="UPDATE SWIFTlocked... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="19" column="77" lean-forward="true" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,21 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <marker date="1513050872379" expanded="true" signature="952:1049" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="1786:1871" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="2508:2605" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="3303:3325" ph="SELECT * FRO... SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4117:4142" ph="SELECT uuid SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4763:4860" ph="INSERT into SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="5156:5184" ph="SELECT uuid SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="5758:5858" ph="INSERT into SWIFTlocked... " />
-            <marker date="1513050872379" expanded="true" signature="6184:6209" ph="SELECT * FRO... SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="6982:7075" ph="UPDATE SWIFTlocked... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,21 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <marker date="1513050872379" expanded="true" signature="952:1049" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="1786:1871" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="2508:2605" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="3303:3325" ph="SELECT * FRO... SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4117:4142" ph="SELECT uuid SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4763:4860" ph="INSERT into SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="5156:5184" ph="SELECT uuid SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="5758:5858" ph="INSERT into SWIFTlocked... " />
-            <marker date="1513050872379" expanded="true" signature="6184:6209" ph="SELECT * FRO... SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="6982:7075" ph="UPDATE SWIFTlocked... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,9 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,13 +845,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/config.yml" />
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/GiveCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/AdminCommands.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/UtilsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Files/Playerdata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -921,56 +863,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="20" column="121" lean-forward="false" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/SwiftEconomyAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <marker date="1513050872379" expanded="true" signature="952:1049" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="1786:1871" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="2508:2605" ph="UPDATE SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="3303:3325" ph="SELECT * FRO... SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4117:4142" ph="SELECT uuid SWIFTeco" />
-            <marker date="1513050872379" expanded="true" signature="4763:4860" ph="INSERT into SWIFTeco... " />
-            <marker date="1513050872379" expanded="true" signature="5156:5184" ph="SELECT uuid SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="5758:5858" ph="INSERT into SWIFTlocked... " />
-            <marker date="1513050872379" expanded="true" signature="6184:6209" ph="SELECT * FRO... SWIFTlocked" />
-            <marker date="1513050872379" expanded="true" signature="6982:7075" ph="UPDATE SWIFTlocked... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="140" column="28" lean-forward="false" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="3625">
+          <caret line="157" column="28" lean-forward="false" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/BalanceCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="350">
           <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -979,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/PayCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
+        <state relative-caret-position="875">
           <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -989,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Tasks/MoneyTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="350">
           <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
             <element signature="e#360#361#0" expanded="true" />
@@ -1006,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1024,11 +922,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="125">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Commands/MainCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/Listeners/SignListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="140" column="28" lean-forward="false" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tatemylove/SwiftEconomy/API/UtilsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

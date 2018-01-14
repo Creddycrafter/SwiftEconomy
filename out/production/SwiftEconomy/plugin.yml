@@ -1,6 +1,6 @@
 name: SwiftEconomy
 author: tatemylove
-version: 1.0.4
+version: 1.0.5
 main: com.tatemylove.SwiftEconomy.Main
 commands:
   swift:
